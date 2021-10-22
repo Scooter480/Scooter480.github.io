@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
-	background-image: url('/images/WavesAzul.png');
+	background-image: url('images/WavesAzul.png');
 	font-family: 'Open Sans', sans-serif;
 	color:#eee;
 
@@ -33,5 +33,10 @@ img.anim {
 
 marquee{
 	padding-bottom:10px;
+}
+#gif {
+	position: fixed;
+	bottom:0;
+	right:0;
 }
 
