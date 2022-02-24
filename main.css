@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
-	background-image: url('images/WavesAzul.png');
+	background-image: url('images/tiling.png');
+	/* background: #6f67db; */
 	font-family: 'Open Sans', sans-serif;
 	color:#eee;
 
 }
 .content{
 	background:rgba(0,0,0,0.5);
+	backdrop-filter: blur(3px);
 	border-radius:10px;
 	padding:15px;
 	max-width:900px;
 	margin:auto;
 	margin-top:20px;
 	margin-bottom:25px;
-	box-shadow: 10px 10px 5px #454545;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.7);
 }
 
 a:link {color:#7799ff;}
