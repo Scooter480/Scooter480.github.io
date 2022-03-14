@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
-	background-image: url('images/tiling.png');
+	background-image: url('images/webtile.jpg');
 	/* background: #6f67db; */
 	font-family: 'Open Sans', sans-serif;
 	color:#eee;
@@ -16,7 +16,7 @@ body{
 	margin:auto;
 	margin-top:20px;
 	margin-bottom:25px;
-	box-shadow: 10px 10px 5px rgba(0,0,0,0.7);
+	box-shadow: 10px 10px 5px rgb(0,0,0);
 }
 
 a:link {color:#7799ff;}
