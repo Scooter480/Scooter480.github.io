@@ -9,21 +9,32 @@ body{
 }
 .content{
 	background:rgba(0,0,0,0.5);
-	backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px);
-	border-radius:10px;
+	border-radius:5px;
 	padding:15px;
 	max-width:900px;
 	margin:auto;
 	margin-top:20px;
 	margin-bottom:25px;
-	box-shadow: 10px 10px 5px rgb(0,0,0);
+	/*backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px);*/
+	/*box-shadow: 10px 10px 5px rgb(0,0,0);*/
+}
+
+.interests span {
+	display:inline-block;
+	margin:5px;
+}
+.interests img {
+	height:200px;
 }
 
 a:link {color:#7799ff;}
 a:visited {color:#dd88ee;}
 
-.icon {
+img.icon {
+	border-radius: 10px;
 	float:right;
+	height:20%; width:20%;
+	padding:5px;
 }
 img.anim {
 	animation-duration: 3s;
