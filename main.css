@@ -22,6 +22,15 @@ a:visited {color:#dd88ee;}
 	/*box-shadow: 10px 10px 5px rgb(0,0,0);*/
 }
 
+@media screen and (max-width:800px) {
+	.content{
+		flex-direction: column;
+	}
+	article{
+		order: -1;
+	}
+}
+
 aside{
 	flex: 1;
 	background:rgba(0,0,0,0.5);
