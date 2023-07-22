@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 body{
 	background-image: url('images/webtile.jpg');
 	/* background: #6f67db; */
@@ -69,6 +68,10 @@ img.icon {
 
 img.small {
 	width:15%;
+}
+
+img.smaller {
+	width:8%;
 }
 
 img.logo {
